@@ -17,3 +17,7 @@ Guatemala, 2 de abril de 2024
 ## Controlador de Versiones
 
 [Repositorio Hoja-De-Trabajo-7-AED](https://github.com/Tunchxz/Hoja-De-Trabajo-7-AED.git "Enlace a GitHub")
+
+## Bibliografía
+
+- GeeksforGeeks. (21 de novimebre de 2023). Searching in Binary Search Tree (BST). https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/

@@ -3,7 +3,22 @@ package uvg.edu.gt;
 import java.util.*;
 import java.io.*;
 
+/**
+ * Esta clase contiene el método principal que lee un diccionario y un texto, y
+ * realiza la traducción de palabras utilizando un árbol binario.
+ * 
+ * @author Cristian Túnchez
+ * @version 1.0
+ * @since 02-04-2024
+ */
 public class Main {
+    /**
+     * El método principal que lee un diccionario y un texto, y realiza la
+     * traducción de palabras.
+     * 
+     * @param args los argumentos de la línea de comandos (no se utilizan en este
+     *             caso)
+     */
     public static void main(String[] args) {
         // Crear el diccionario
         BinaryTree<String> dictionary = new BinaryTree<>();
