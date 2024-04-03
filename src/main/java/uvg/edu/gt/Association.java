@@ -1,19 +1,19 @@
 package uvg.edu.gt;
 
-public class Association<K, V> {
-    K key;
-    V value;
+public class Association<K extends Comparable<K>, V> {
+    K llave;
+    V valor;
 
-    public Association(K key, V value) {
-        this.key = key;
-        this.value = value;
+    public Association(K llave, V valor) {
+        this.llave = llave;
+        this.valor = valor;
     }
 
-    public K getKey() {
-        return key;
+    public K getLlave() {
+        return llave;
     }
 
-    public V getValue() {
-        return value;
+    public V getValor() {
+        return valor;
     }
 }
